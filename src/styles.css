@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Mulish:ital,wght@0,900;1,600&display=swap');
+
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    background: rgb(233, 228, 228);
+}

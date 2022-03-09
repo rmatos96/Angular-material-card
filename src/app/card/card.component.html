@@ -1,0 +1,21 @@
+<mat-card class="app-card" [style]="'background-color: '+bg+';color: '+cor+';height: '+altura+';'">
+    <mat-card-header>
+        <mat-card-subtitle [style]="'color:' +cor+';'" class="titulo">{{primeiro}}</mat-card-subtitle>
+        <mat-card-title  class="preço">{{segundo}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <mat-list>
+        <mat-divider class="divider"></mat-divider> 
+        <mat-list-item class="item" [style]="'color:' +cor+';'">{{terceiro}}</mat-list-item>
+        <mat-divider class="divider"></mat-divider> 
+        <mat-list-item class="item" [style]="'color:' +cor+';'">{{quarto}}</mat-list-item>
+        <mat-divider class="divider"></mat-divider> 
+        <mat-list-item class="item" [style]="'color:' +cor+';'">{{quinto}}</mat-list-item>  
+        <mat-divider class="divider"></mat-divider>
+        </mat-list>
+    </mat-card-content>
+    <mat-card-actions>
+        <button (click)="emitirEvento()" mat-stroked-button>Learn More</button>
+    </mat-card-actions>
+</mat-card>
+
